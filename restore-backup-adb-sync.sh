@@ -28,4 +28,3 @@ ${adb_sync_home}/adb-sync --delete ${source_home}/${process_dir}/ ${target_home}
 
 process_dir=Android/data/com.bambuna.podcastaddict/files/podcast
 ${adb_sync_home}/adb-sync --delete ${source_home}/${process_dir}/ ${target_home}/${process_dir}
-

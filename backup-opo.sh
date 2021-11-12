@@ -26,6 +26,5 @@ ${adb_sync_home}/adb-sync --time --delete --reverse ${source_home}/${process_dir
 process_dir=Ringtones
 ${adb_sync_home}/adb-sync --time --delete --reverse ${source_home}/${process_dir}/ ${target_home}/${process_dir}
 
-process_dir=Android/data/com.bambuna.podcastaddict/files/podcast
-${adb_sync_home}/adb-sync --time --delete --reverse ${source_home}/${process_dir}/ ${target_home}/${process_dir}
-
+#process_dir=Android/data/com.bambuna.podcastaddict/files/podcast
+#${adb_sync_home}/adb-sync --time --delete --reverse ${source_home}/${process_dir}/ ${target_home}/${process_dir}
